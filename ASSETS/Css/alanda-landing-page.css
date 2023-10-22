@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  /* background-color: pink; */
+}
+.hero header {
+  padding-top: 20px;
+  height: 53px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.hero header a .logo img {
+  height: 50px;
+  width: 100%;
+  /* background-color: blue; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 50px;
+}
+
+.hero header nav ul {
+  /* float: right; */
+  display: flex;
+  /* background-color: red; */
+  padding-top: 20px;
+  margin-left: 120px;
+}
+
+.hero header nav ul li {
+  display: inline-block;
+}
+
+.hero header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 60px;
+}
+.hero header nav ul li .log {
+  /* color: yellow; */
+  margin-left: 330px;
+}
+
+.hero header nav ul li .sign-up {
+  /* color: paleturquoise; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #00a86b;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 1px;
+}
+
+.hero .wrapper {
+  width: 100%;
+  height: 55%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+.hero .wrapper .left {
+  height: 100%;
+  width: 47%;
+  /* background-color: rgb(21, 29, 187); */
+  margin-left: 80px;
+}
+
+.hero .wrapper .left .first {
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aqua; */
+  height: 70%;
+  width: 90%;
+}
+
+.hero .wrapper .left .second {
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(166, 187, 8); */
+}
+
+.hero .wrapper .right img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #9898a2; */
+  width: 120%;
+  height: 100%;
+}
+.hero .lower-section {
+  /* background-color: rgb(126, 79, 79); */
+}
+.hero form input {
+  margin-left: 90px;
+  /* background-color: #00a86b; */
+  padding: 20px;
+  width: 27%;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.hero form button {
+  margin-left: 20px;
+  background-color: #00a86b;
+  /* padding: 20px; */
+  width: 10%;
+  height: 70px;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.hero .numbers {
+  display: flex;
+}
+.hero .numbers img {
+  padding-top: 10px;
+  height: 55px;
+  /* background-color: aquamarine; */
+  margin-left: 90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .numbers .two {
+  /* background-color: pink; */
+  margin-left: 40px;
+}
+
+.hero .numbers .three {
+  /* background-color: pink; */
+  margin-left: 40px;
+}
+
+.hero .plots {
+  display: flex;
+}
+
+.hero .plots h4 {
+  padding-top: 10px;
+  /* font-size: 20px; */
+  /* background-color: aquamarine; */
+  margin-left: 110px;
+  font-family: "Times New Roman", Times, serif;
+}
+.hero .plots .two {
+  /* background-color: pink; */
+  margin-left: 75px;
+}
+
+.hero .plots .three {
+  /* background-color: pink; */
+  margin-left: 40px;
+}
