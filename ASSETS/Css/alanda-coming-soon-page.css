@@ -2,7 +2,9 @@
   padding: 0px;
   margin: 0px;
 }
-
+.outline{
+  none
+}
 .hero {
   width: 100%;
   height: 100vh;
